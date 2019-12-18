@@ -35,7 +35,7 @@ export default class Movie extends React.Component {
   };
 
   editMovie = id => {
-    this.props.history.push(`/update-movie/:${id}`);
+    this.props.history.push(`/update-movie/${id}`);
   };
 
   deleteMovie = e => {
